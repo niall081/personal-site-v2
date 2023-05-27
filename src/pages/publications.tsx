@@ -4,15 +4,15 @@ import { Link } from "gatsby"
 import Navbar  from "../components/Navbar"
 
 
-const IndexPage: React.FC<PageProps> = () => {
+const PublicationsPage: React.FC<PageProps> = () => {
   return (
     <main >
       <Navbar />
-      <h1>This is the home page</h1>
+      <h1>This is the publications page</h1>
     </main>
   )
 }
 
-export default IndexPage
+export default PublicationsPage
 
 export const Head: HeadFC = () => <title>Niall Byrnes</title>
