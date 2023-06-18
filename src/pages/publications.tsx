@@ -8,7 +8,9 @@ const PublicationsPage: React.FC<PageProps> = () => {
   return (
     <main >
       <Navbar />
-      <h1>This is the publications page</h1>
+      <div className="main">
+        <h1>This is the publications page</h1>
+      </div>
     </main>
   )
 }

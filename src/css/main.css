@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+:root {
+    --clr-blue-primary: hsl(225, 47%, 12%);
+    --clr-white-primary: hsl(201, 39%, 93%);
+    --clr-white-primary-blr: hsl(205, 51%, 93%, .5);
+    
+    --clr-blue-navbar: hsl(224, 52%, 8%);
+    --clr-blue-navbar-blr: hsl(224, 52%, 8%, .9);
+
+    --clr-light-blue: hsl(191, 100%, 66%);
+    --clr-light-blue-blr: hsl(191, 100%, 66%, .2);
+
+    --clr-gray: hsl(240, 1%, 31%);
+
+    --clr-blue-200: hsl(228, 43%, 16%);
+    --clr-blue-100: hsl(199, 64%, 37%);
+   
+    --fa-border-color: var(--clr-white-primary);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    letter-spacing: .9px;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+    background: var(--clr-blue-primary);
+    color: var(--clr-white-primary);
+    font-size: 18px;
+}
+
+p,div {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+.a:visited {
+    color: var(--clr-light-blue);
+    cursor: pointer;
+}
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.main {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 110px;
+    
+    
+}
+
+.main--home {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.wrapper_link {
+    
+    padding: 5px 0;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.card {
+    margin-right: 30px;
+    text-align: center;
+    max-height: 100vh;
+}
+
+.card_title,
+.section_title {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 10px 0 5px 0;
+}
+
+.section_list-title {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.card_socials {
+   display: flex; 
+   margin: 20px 0;
+   justify-content: center;
+}
+
+.card_socials_icon {
+    font-size: 35px;
+    color: var(--clr-white-primary);
+    margin-right: 20px;
+    transition: all .2s ease 0s;
+}
+
+.card_socials_icon:hover {
+    color: var(--clr-light-blue);
+    transform: scale(1.15) translateY(-0.125em);
+}
+
+.section_text {
+    margin-bottom: 40px;
+}
+
+
+.button {
+    color: var(--clr-light-blue);
+    border: 1px solid var(--clr-light-blue);
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+}
+.button a {
+    color: var(--clr-light-blue);
+    padding: 0 20px;
+}
+.button:hover {
+    background-color: var(--clr-light-blue-blr);
+}
+
+
+
+

@@ -1,15 +1,24 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import { Link } from "gatsby"
+import '../css/main.css'
 import Navbar  from "../components/Navbar"
+import Card  from "../components/Card"
+import Section from "../components/Section"
+import Footer from "../components/Footer"
+
 
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <main >
+    <div >
       <Navbar />
-      <h1>This is the home page</h1>
-    </main>
+      <main className="main main--home">
+        <Card />
+        <Section />
+      </main>
+      <Footer />
+    </div>
   )
 }
 
