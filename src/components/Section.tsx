@@ -9,14 +9,17 @@ const Section = () => {
     <div className="section">
         <h1 className="section_title">About me</h1>
         <p className="section_text">
-        Hi, I’m Niall Byrnes. I’m currently pursuing a PhD in physics at <a className="link" href="https://www.imperial.ac.uk/"> Imperial College London</a> under the supervision of Dr. Matthew Foreman. My research is primarily focused on the scattering of polarised light in complex, mesoscopic scattering media. In particular, I have been exploring the application of random matrices to modelling the vectorial scattering matrix and have developed techniques for numerical simulations.
+        Hi, I’m Niall Byrnes. I’m a research associate based in the School of Electronic and Electrical Engineering at NTU Singapore. My work primarily involves theoretical and computational modelling of the scattering of polarised light in random media.
         </p>
-
         <p className="section_text">
-        I worked as a mathematics teacher in an international high school in Shanghai for three years. At present, I occasionally do private tutoring in mathematics, physics and computer programming. I have also helped people with English proofreading and Chinese to English translations. 
+        I completed my PhD in 2023 at Imperial College London, where I studied applications of random matrix theory to modelling the multiple scattering of polarised light. In particular, I developed computational methods for generating random scattering matrices whose statistical properties more accurately resemble those of realistic scattering media.
         </p>
-        
-        <Button />
+        <p className="section_text">
+        In the past I’ve worked as a mathematics teacher in Shanghai and, at present, I occasionally accept new students for private tutoring. Outside of work, I’m also an avid language learner and constantly strive to improve my Mandarin skills.
+        </p>
+        <p className="section_text">
+        If you would like to get in touch, please don't hesitate to do so! 
+        </p>
     </div>
   ) 
 }

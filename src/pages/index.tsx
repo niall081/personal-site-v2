@@ -8,7 +8,6 @@ import Section from "../components/Section"
 import Footer from "../components/Footer"
 
 
-
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <div >
