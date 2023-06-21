@@ -18,7 +18,7 @@ const Section = () => {
         In the past I’ve worked as a mathematics teacher in Shanghai and, at present, I occasionally accept new students for private tutoring. Outside of work, I’m also an avid language learner and constantly strive to improve my Mandarin skills.
         </p>
         <p className="section_text">
-        If you would like to get in touch, please don't hesitate to do so! 
+        If you would like to <span className="wrapper_link"><a className="link" href="mailto:niallfrancis.byrnes@ntu.edu.sg">get in touch</a></span>, please don't hesitate to do so! 
         </p>
     </div>
   ) 
