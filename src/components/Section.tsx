@@ -1,6 +1,5 @@
 import * as React from "react"
 import '../css/main.css'
-import Button from "./Button"
 import { FaGraduationCap } from 'react-icons/fa'
 
 

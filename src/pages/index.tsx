@@ -10,7 +10,7 @@ import Footer from "../components/Footer"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-    <div >
+    <div className="parent">
       <Navbar />
       <main className="main main--home">
         <Card />
