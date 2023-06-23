@@ -6,7 +6,7 @@ import '../css/navbar.css'
 const Footer = () => {
   return (
     <footer>
-        <a className="footer_link link" href="">Designed & Built by Gloria Mancini</a>
+        <span>Designed & Built by <a className="footer_link link" href="https://gloriacodes.com/">Gloria Mancini</a></span>
     </footer>
   )
 }

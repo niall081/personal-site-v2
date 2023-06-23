@@ -1,6 +1,5 @@
 import * as React from "react"
 import '../css/main.css'
-import { FaGraduationCap } from 'react-icons/fa'
 
 
 const Section = () => {
