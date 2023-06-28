@@ -140,6 +140,50 @@ footer {
     font-size: 15px;
 }
 
+ /* Stuff I added starts from here */
+
+.section_title--secondary {
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+  }
+
+.list_number,
+.list_number--big {
+  font-family: var(--roboto-mono-font);
+}
+.list_number--big,
+.list_number--big--big {
+  font-size: 1.5rem;
+  color: var(--clr-light-blue);
+}
 
 
+.grid {
+    display: grid;
+}
 
+.row {
+    grid-auto-flow: column;
+    gap: 1.5rem;
+    max-width: 50rem;
+    margin-top: 3rem;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--clr-white-primary-blr);
+  }
+
+.row_text--title {
+    font-family: var(--raleway-font);
+    font-size: 1.3rem;
+}
+
+.row_text {
+    font-size: 0.7rem;
+  }
+
+.row_img {
+    max-width: 8rem;
+}
