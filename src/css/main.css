@@ -142,6 +142,19 @@ footer {
 
  /* Stuff I added starts from here */
 
+ .publications_section {
+    padding-top: 7rem;
+  }
+
+  .publications_section--mod {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+
+
+
 .section_title--secondary {
     font-weight: 400;
     font-size: 1.7rem;
@@ -165,7 +178,7 @@ footer {
     display: grid;
 }
 
-.row {
+.publication_wrapper {
     grid-auto-flow: column;
     gap: 1.5rem;
     max-width: 50rem;
@@ -175,15 +188,16 @@ footer {
     border-bottom: 1px solid var(--clr-white-primary-blr);
   }
 
-.row_text--title {
+.publication_text--title {
     font-family: var(--raleway-font);
     font-size: 1.3rem;
 }
 
-.row_text {
-    font-size: 0.7rem;
+.publication_text--citation {
+    font-size: 1.0rem;
   }
 
-.row_img {
+.publication_img {
     max-width: 8rem;
+    box-shadow: var(--clr-white-primary-blr) 6px 6px 2.5px;
 }
